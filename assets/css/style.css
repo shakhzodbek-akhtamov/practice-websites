@@ -1,0 +1,367 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+/* styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    position: relative;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.title::before {
+    content: "";
+    background-color: #c8a35f;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    width: 90px;
+    height: 6px;
+}
+
+/* ==================== HEADER ==================== */
+
+.little-header-menu {
+    width: 100%;
+    background-color: #c8a35f;
+    padding: 1rem 0;
+}
+
+.little-header-menu ul li {
+    margin: 0 0.5rem;
+}
+
+.little-header-menu ul li a {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 14px;
+    opacity: 0.5;
+}
+
+.langs-menu li {
+    text-transform: uppercase;
+}
+
+.little-header-menu ul li a.active {
+    opacity: 1;
+}
+
+.main-header-menu {
+    background-color: #2f343a;
+}
+
+.main-header-wrapper a {
+    font-size: 0.875rem;
+}
+
+.main-header-wrapper {
+    padding: 1.5rem 0;
+}
+
+.logo hr {
+    color: #c8a35f;
+    height: 30px;
+    width: 1px;
+    margin: 0 2rem;
+}
+
+.logo .location-link i {
+    color: #c8a35f;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.main-header-wrapper .header-navbar li {
+    margin-left: 2rem;
+    text-transform: uppercase;
+}
+
+/* ======================= HOME ======================  */
+
+.home {
+    width: 100%;
+    background-image: url("../img/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 10rem;
+}
+
+.home-description {
+    text-align: center;
+    padding: 3rem 5rem;
+    border: 1px solid #c8a35f;
+}
+
+.home-description h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.home-description p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+/* ==================== TRUCK ========================  */
+
+.trucks {
+    background-color: #393f47;
+    padding: 10rem 0;
+    width: 100%;
+}
+
+.truck-wrapper {
+    display: flex;
+}
+
+.truck-description {
+    padding-right: 8rem;
+}
+
+.truck-description p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 1rem 0 2rem;
+}
+
+.truck-description button {
+    background: #c8a35f;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+}
+
+.truck-description button:hover {
+    cursor: pointer;
+    border: 2px solid #c8a35f;
+    background-color: transparent;
+    color: #c8a35f;
+    transition: 0.3s ease;
+}
+
+.truck-img {
+    position: relative;
+}
+
+.truck-img button {
+    border: none;
+    background-color: transparent;
+    color: #c8a35f;
+    font-size: 1rem;
+}
+
+.truck-img button:hover {
+    cursor: pointer;
+}
+
+.prev {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* ==================== SERVICES ==================  */
+
+.services,
+.about-company {
+    background-color: #2f343a;
+    padding: 7.5rem 0;
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    margin-top: 4rem;
+}
+
+.services-cards .card {
+    padding: 2rem 3rem;
+    background-color: #393f47;
+    text-align: center;
+}
+
+.services-cards .card:first-child {
+    background-color: #c8a35f;
+}
+
+.services-cards .card:first-child .card-img i {
+    padding: 1rem;
+    border-radius: 50%;
+    color: #2f343a;
+    background-color: #fff;
+}
+
+.services-cards .card .card-img i {
+    padding: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.services-cards .card .card-title h5 {
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+/* ==================== COMPANY ==================  */
+
+.company-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.company-container .company-description {
+    font-weight: 400;
+    position: relative;
+    font-size: 1rem;
+    line-height: 23px;
+    color: #ffffff;
+    margin-top: 2rem;
+    z-index: 100;
+}
+
+.company-container .company-img {
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 10;
+}
+
+.company-container .company-img::before {
+    position: absolute;
+    left: -200px;
+    content: "";
+    height: 500px;
+    width: 500px;
+    background-color: #393f47;
+    z-index: -10;
+}
+
+.company-container .company-img .img-card {
+    width: 200px;
+    height: 160px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.company-container .company-img .img-card h3 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2f343a;
+    padding-top: 1.5rem;
+}
+
+.company-container .company-img .img-card h5 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.company-container .company-img .img-card p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 14px;
+    color: #000000;
+}
+
+/* ================== LOCATION ===============  */
+
+.location iframe {
+    width: 100%;
+    position: relative;
+}
+
+/* ================== FOOTER =================  */
+
+footer {
+    background-color: #c8a35f;
+    padding: 4rem 0;
+}
+
+.footer-wrapper ul {
+    display: block;
+    color: #fff;
+}
+
+.footer-wrapper ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #f2f2f2;
+    opacity: 0.8;
+    margin: 0.5rem;
+}

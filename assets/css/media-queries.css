@@ -1,0 +1,219 @@
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .main-header-menu {
+        display: none;
+    }
+
+    .services-cards,
+    .company-container,
+    .company-container .company-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .services-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2px;
+    }
+
+    .company-container {
+        display: block;
+    }
+
+    .company-description {
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .home-description {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .home-description h1 {
+        font-size: 3rem;
+    }
+
+    .truck-description {
+        padding-right: 0rem;
+    }
+
+    .truck-img {
+        width: 100%;
+    }
+
+    .truck-img img {
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        position: relative;
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    html {
+        font-size: 13px;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .main-header-menu {
+        display: none;
+    }
+
+    .services-cards,
+    .company-container,
+    .company-container .company-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .company-container {
+        display: block;
+    }
+
+    .company-description {
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .home-description {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .home-description h1 {
+        font-size: 3rem;
+    }
+
+    .truck-description {
+        padding-right: 0rem;
+    }
+
+    .truck-img {
+        width: 100%;
+    }
+
+    .truck-img img {
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        position: relative;
+        padding: 1rem 2rem;
+    }
+
+    .company-container .company-img::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 12px;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .main-header-menu {
+        display: none;
+    }
+
+    .truck-wrapper,
+    .services-cards,
+    .company-container,
+    .company-container .company-img {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .home-description {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .home-description h1 {
+        font-size: 3rem;
+    }
+
+    .truck-description {
+        padding-right: 0rem;
+    }
+
+    .truck-img {
+        width: 100%;
+    }
+
+    .truck-img img {
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        position: relative;
+        padding: 1rem 2rem;
+    }
+
+    .company-container .company-img::before {
+        display: none;
+    }
+}
